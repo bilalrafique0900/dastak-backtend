@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lp4oRz78NjxWE6FDkMuDTcT39J9XRHTfyG4P4U3K37s=",
+  "Hash": "/cmgfD2J+xlmmvvrcKuvBRlFQeZhood1nS++PVvq3I4=",
   "Source": "DastakWebApi",
   "BasePath": "_content/DastakWebApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DastakWebApi\\wwwroot",
       "Source": "DastakWebApi",
-      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "ContentRoot": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\",
       "BasePath": "_content/DastakWebApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG",
+      "Identity": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG",
       "SourceId": "DastakWebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "ContentRoot": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\",
       "BasePath": "_content/DastakWebApi",
       "RelativePath": "uploads/26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG"
     },
     {
-      "Identity": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\DocumentUpload.PNG",
+      "Identity": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\DocumentUpload.PNG",
       "SourceId": "DastakWebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "ContentRoot": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\",
       "BasePath": "_content/DastakWebApi",
       "RelativePath": "uploads/DocumentUpload.PNG",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\DocumentUpload.PNG"
     },
     {
-      "Identity": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\educationalinfo.PNG",
+      "Identity": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\educationalinfo.PNG",
       "SourceId": "DastakWebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "ContentRoot": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\",
       "BasePath": "_content/DastakWebApi",
       "RelativePath": "uploads/educationalinfo.PNG",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\educationalinfo.PNG"
     },
     {
-      "Identity": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\login.PNG",
+      "Identity": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\login.PNG",
       "SourceId": "DastakWebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "ContentRoot": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\wwwroot\\",
       "BasePath": "_content/DastakWebApi",
       "RelativePath": "uploads/login.PNG",
       "AssetKind": "All",
