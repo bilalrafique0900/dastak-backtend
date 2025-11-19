@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Py8m9CUaMWktGXe7LuY+C+rDAlc15+ysJIG8zsk05wnvgb6WF6M9iRWL4DCebqt/4+chzxyaAgNonzlrX4LXOA==",
+  "dgSpecHash": "RE6S5URw89nULP/xocIm1ayJPVXobbgN/HaHj48aQRq9C5WY+H7/g0sRDwxluJ99Pai7tG+8wo6HIP4lIC4T1g==",
   "success": true,
-  "projectFilePath": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj",
+  "projectFilePath": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

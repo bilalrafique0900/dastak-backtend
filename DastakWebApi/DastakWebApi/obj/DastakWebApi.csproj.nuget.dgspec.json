@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj": {}
+    "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj": {}
   },
   "projects": {
-    "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj": {
+    "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj",
+        "projectUniqueName": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj",
         "projectName": "DastakWebApi",
-        "projectPath": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj",
+        "projectPath": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\DastakWebApi.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\obj\\",
+        "outputPath": "D:\\new digital omega\\dastak project\\dastak-backend\\DastakWebApi\\DastakWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
