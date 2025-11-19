@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "1EV+40Ydc95kfE/GKFQNRfu9p6MFSU4wRjTRbcLnmPc=",
+  "Source": "DastakWebApi",
+  "BasePath": "_content/DastakWebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DastakWebApi\\wwwroot",
+      "Source": "DastakWebApi",
+      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "BasePath": "_content/DastakWebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG",
+      "SourceId": "DastakWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "BasePath": "_content/DastakWebApi",
+      "RelativePath": "uploads/26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG"
+    },
+    {
+      "Identity": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\DocumentUpload.PNG",
+      "SourceId": "DastakWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "BasePath": "_content/DastakWebApi",
+      "RelativePath": "uploads/DocumentUpload.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\DocumentUpload.PNG"
+    },
+    {
+      "Identity": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\educationalinfo.PNG",
+      "SourceId": "DastakWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "BasePath": "_content/DastakWebApi",
+      "RelativePath": "uploads/educationalinfo.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\educationalinfo.PNG"
+    },
+    {
+      "Identity": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\uploads\\login.PNG",
+      "SourceId": "DastakWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\new digital omega\\DastakWebApi\\DastakWebApi\\wwwroot\\",
+      "BasePath": "_content/DastakWebApi",
+      "RelativePath": "uploads/login.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\login.PNG"
+    }
+  ]
+}

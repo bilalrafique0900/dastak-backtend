@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\new digital omega\DastakWebApi\DastakWebApi\bin\Release\net7.0\publish\</_PublishTargetUrl>
+    <History>True|2025-09-11T11:08:50.9231227Z;True|2025-08-21T18:07:16.5529418+05:00;True|2025-08-21T18:05:54.2814451+05:00;True|2025-07-30T10:48:49.1244573+05:00;True|2025-07-17T14:56:20.6389946+05:00;True|2025-07-16T18:16:27.3238715+05:00;True|2025-04-22T14:25:51.0845914+05:00;True|2025-04-22T13:41:36.1970822+05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

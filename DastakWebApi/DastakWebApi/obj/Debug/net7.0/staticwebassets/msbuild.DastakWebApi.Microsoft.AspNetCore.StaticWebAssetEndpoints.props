@@ -1,0 +1,52 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/DastakWebApi/uploads/26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BupY56MZE\u002BOLakYUje5/vQI9jpy6IC8iTte\u002BDog7JI0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"102479"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022BupY56MZE\u002BOLakYUje5/vQI9jpy6IC8iTte\u002BDog7JI0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Oct 2024 08:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DastakWebApi/uploads/26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.u7yvzp9z3a.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u7yvzp9z3a"},{"Name":"integrity","Value":"sha256-BupY56MZE\u002BOLakYUje5/vQI9jpy6IC8iTte\u002BDog7JI0="},{"Name":"label","Value":"_content/DastakWebApi/uploads/26074a4c-6625-4373-93cf-04d7ec882de5DocumentUpload.PNG"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"102479"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022BupY56MZE\u002BOLakYUje5/vQI9jpy6IC8iTte\u002BDog7JI0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Oct 2024 08:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DastakWebApi/uploads/DocumentUpload.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\DocumentUpload.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BupY56MZE\u002BOLakYUje5/vQI9jpy6IC8iTte\u002BDog7JI0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"102479"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022BupY56MZE\u002BOLakYUje5/vQI9jpy6IC8iTte\u002BDog7JI0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Oct 2024 08:44:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DastakWebApi/uploads/DocumentUpload.u7yvzp9z3a.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\DocumentUpload.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u7yvzp9z3a"},{"Name":"integrity","Value":"sha256-BupY56MZE\u002BOLakYUje5/vQI9jpy6IC8iTte\u002BDog7JI0="},{"Name":"label","Value":"_content/DastakWebApi/uploads/DocumentUpload.PNG"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"102479"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022BupY56MZE\u002BOLakYUje5/vQI9jpy6IC8iTte\u002BDog7JI0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Oct 2024 08:44:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DastakWebApi/uploads/educationalinfo.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\educationalinfo.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"100845"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Oct 2024 05:03:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DastakWebApi/uploads/educationalinfo.yb7mccivco.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\educationalinfo.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yb7mccivco"},{"Name":"integrity","Value":"sha256-YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s="},{"Name":"label","Value":"_content/DastakWebApi/uploads/educationalinfo.PNG"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"100845"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YhV4gWy4jGL7cBnAd3gufJ3/3BLAmNQf96IUYZSIp3s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Oct 2024 05:03:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DastakWebApi/uploads/login.8d2y2nw3xy.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\login.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8d2y2nw3xy"},{"Name":"integrity","Value":"sha256-hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4="},{"Name":"label","Value":"_content/DastakWebApi/uploads/login.PNG"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"125099"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Oct 2024 07:48:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DastakWebApi/uploads/login.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\login.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"125099"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hAEqxKTsahe8N/dD2Ys49fz/2otNQvPIqjhlFAUcYN4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Oct 2024 07:48:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

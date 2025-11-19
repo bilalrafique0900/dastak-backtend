@@ -1,0 +1,4905 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Dastak_System",
+    "description": "Dastak_System",
+    "version": "v2"
+  },
+  "paths": {
+    "/Abuser/getabuse": {
+      "get": {
+        "tags": [
+          "Abuser"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Abuser/getabuserview": {
+      "get": {
+        "tags": [
+          "Abuser"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Abuser/getabuseradd": {
+      "get": {
+        "tags": [
+          "Abuser"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Abuser/postabuseradd": {
+      "post": {
+        "tags": [
+          "Abuser"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AllegedAbuserViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AllegedAbuserViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AllegedAbuserViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Abuser/gettdeleteabuser": {
+      "get": {
+        "tags": [
+          "Abuser"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/AllCallers/getcallers": {
+      "get": {
+        "tags": [
+          "AllCallers"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/AllCallers/getcallersbyid": {
+      "get": {
+        "tags": [
+          "AllCallers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/AllCallers/delete": {
+      "get": {
+        "tags": [
+          "AllCallers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Auth/postauth": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "Email",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Password",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Auth/verify": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "Email",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Passcode",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Auth/SendVerification": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "ToEmail",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Caller/postcall": {
+      "post": {
+        "tags": [
+          "Caller"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CallerViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CallerViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CallerViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Children/getchild": {
+      "get": {
+        "tags": [
+          "Children"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Children/getchildview": {
+      "get": {
+        "tags": [
+          "Children"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "childentity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Children/geteditchild": {
+      "get": {
+        "tags": [
+          "Children"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "childentity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Children/posteditchild": {
+      "post": {
+        "tags": [
+          "Children"
+        ],
+        "parameters": [
+          {
+            "name": "childentity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Children/getaddchild": {
+      "get": {
+        "tags": [
+          "Children"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Children/postaddchild": {
+      "post": {
+        "tags": [
+          "Children"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChildRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChildRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChildRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Children/gettdeletechild": {
+      "get": {
+        "tags": [
+          "Children"
+        ],
+        "parameters": [
+          {
+            "name": "childReferenceNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Dashboard/home": {
+      "get": {
+        "tags": [
+          "Dashboard"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DastakVisit/getdastak": {
+      "get": {
+        "tags": [
+          "DastakVisit"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DastakVisit/postdastakvisit": {
+      "post": {
+        "tags": [
+          "DastakVisit"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DastakVisitModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DastakVisitModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DastakVisitModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DastakVisit/getdastakbyid": {
+      "get": {
+        "tags": [
+          "DastakVisit"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DastakVisit/deletedastakvisit": {
+      "get": {
+        "tags": [
+          "DastakVisit"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Document/getdocument": {
+      "get": {
+        "tags": [
+          "Document"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Document/getdocumentview": {
+      "get": {
+        "tags": [
+          "Document"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Document/getadddocument": {
+      "get": {
+        "tags": [
+          "Document"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Document/postadddocument": {
+      "post": {
+        "tags": [
+          "Document"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ReferenceNo": {
+                    "type": "string"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Detail": {
+                    "type": "string"
+                  },
+                  "image": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "ReferenceNo": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Detail": {
+                  "style": "form"
+                },
+                "image": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Document/deletedocument": {
+      "get": {
+        "tags": [
+          "Document"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Economic/geteconomic": {
+      "get": {
+        "tags": [
+          "Economic"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Economic/geteconomicbyid": {
+      "get": {
+        "tags": [
+          "Economic"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Economic/geteconomicadd": {
+      "get": {
+        "tags": [
+          "Economic"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Economic/posteconomicadd": {
+      "post": {
+        "tags": [
+          "Economic"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EconomicViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EconomicViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EconomicViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Economic/deleteeconomic": {
+      "get": {
+        "tags": [
+          "Economic"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Filter/postfilter": {
+      "post": {
+        "tags": [
+          "Filter"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilterRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilterRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilterRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/FollowUp/getfollowrecord": {
+      "get": {
+        "tags": [
+          "FollowUp"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/FollowUp/getfollowdetail": {
+      "get": {
+        "tags": [
+          "FollowUp"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/FollowUp/postfollowdata": {
+      "post": {
+        "tags": [
+          "FollowUp"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FollowupFormModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FollowupFormModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FollowupFormModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/FollowUp/deletefollow": {
+      "get": {
+        "tags": [
+          "FollowUp"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Interventions/getintervention": {
+      "get": {
+        "tags": [
+          "Interventions"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Interventions/getviewintervention": {
+      "get": {
+        "tags": [
+          "Interventions"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Interventions/getinterventionadd": {
+      "get": {
+        "tags": [
+          "Interventions"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Interventions/addintervention": {
+      "post": {
+        "tags": [
+          "Interventions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterventionFormModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterventionFormModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterventionFormModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Interventions/deleteinterventions": {
+      "get": {
+        "tags": [
+          "Interventions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/getlegalassistance": {
+      "get": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/getlegalassistancebyid": {
+      "get": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/getviewbasic": {
+      "get": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/get-deactivated": {
+      "get": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/getfeedback": {
+      "get": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "parameters": [
+          {
+            "name": "ReferenceNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/getlegal": {
+      "get": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/addlegal": {
+      "post": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/editlegal": {
+      "post": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/LegalDetail/updatelegal": {
+      "post": {
+        "tags": [
+          "LegalDetail"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LegalNoticeViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Medical/getmedical": {
+      "get": {
+        "tags": [
+          "Medical"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Medical/getmedicaladd": {
+      "get": {
+        "tags": [
+          "Medical"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Medical/getmedicalview": {
+      "get": {
+        "tags": [
+          "Medical"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "caseId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Medical/postmedicaladd": {
+      "post": {
+        "tags": [
+          "Medical"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MedicalViewModell"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MedicalViewModell"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MedicalViewModell"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Medical/postphysicaladd": {
+      "post": {
+        "tags": [
+          "Medical"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PsychologicalAssistanceViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PsychologicalAssistanceViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PsychologicalAssistanceViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Medical/deletemedical": {
+      "get": {
+        "tags": [
+          "Medical"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Meetings/getmeeting": {
+      "get": {
+        "tags": [
+          "Meetings"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Meetings/getmeetingadd": {
+      "get": {
+        "tags": [
+          "Meetings"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Meetings/postaddmeeting": {
+      "post": {
+        "tags": [
+          "Meetings"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeetingsViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeetingsViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeetingsViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Meetings/postviewmeeting": {
+      "get": {
+        "tags": [
+          "Meetings"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Meetings/deletemeeting": {
+      "get": {
+        "tags": [
+          "Meetings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Menu/files": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "searchQuery",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/FileViewModel"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/FileViewModel"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/FileViewModel"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Menu/all-files": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "searchQuery",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/FileViewModel"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/FileViewModel"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/FileViewModel"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Menu/getfeedbackdeparture": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Menu/geteditbasicinfo": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Menu/getlegalreadmission": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Menu/postfeedbackdeparture": {
+      "post": {
+        "tags": [
+          "Menu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DischargeViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DischargeViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DischargeViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/NewAdmission/newaddmission": {
+      "post": {
+        "tags": [
+          "NewAdmission"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/NewAdmission/readmission": {
+      "post": {
+        "tags": [
+          "NewAdmission"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/NewAdmission/getinfo": {
+      "get": {
+        "tags": [
+          "NewAdmission"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/NewAdmission/postinfo": {
+      "post": {
+        "tags": [
+          "NewAdmission"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityEditViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityEditViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntityEditViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Notification/getnotification": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Pending/pending": {
+      "get": {
+        "tags": [
+          "Pending"
+        ],
+        "parameters": [
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Pending/getpendingdata": {
+      "get": {
+        "tags": [
+          "Pending"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Pending/getpendingname": {
+      "get": {
+        "tags": [
+          "Pending"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Pending/deletepending": {
+      "get": {
+        "tags": [
+          "Pending"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Pending/postproceeddata": {
+      "post": {
+        "tags": [
+          "Pending"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProceedAdmissionViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProceedAdmissionViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProceedAdmissionViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Psychological/getphysical": {
+      "get": {
+        "tags": [
+          "Psychological"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Psychological/getphysicalbyid": {
+      "get": {
+        "tags": [
+          "Psychological"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Psychological/getphysicaladd": {
+      "get": {
+        "tags": [
+          "Psychological"
+        ],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "entity",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Psychological/postphysicaladd": {
+      "post": {
+        "tags": [
+          "Psychological"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PsychologicalAssistanceViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PsychologicalAssistanceViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PsychologicalAssistanceViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Psychological/delete": {
+      "get": {
+        "tags": [
+          "Psychological"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/getusers": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/getuserbyid": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/edit": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/add": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/delete": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Visitor/getexternalvisitor": {
+      "get": {
+        "tags": [
+          "Visitor"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Visitor/getvisitorbyid": {
+      "get": {
+        "tags": [
+          "Visitor"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Visitor/delete": {
+      "get": {
+        "tags": [
+          "Visitor"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Visitor/postvisit": {
+      "post": {
+        "tags": [
+          "Visitor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VisitorViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VisitorViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VisitorViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AllegedAbuserViewModel": {
+        "type": "object",
+        "properties": {
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "residentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "abuserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeOfAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeOfEconomicAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonOfInflictingAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonForToleratingAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfPhysicalAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfBodilyInjury": {
+            "type": "string",
+            "nullable": true
+          },
+          "sexualAbuseInflictedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfSexualAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasSufferedVerbalAbuse": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "typeOfVerbalAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasBeenThreatened": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "natureOfThreats": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "address2": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "contact": {
+            "type": "string",
+            "nullable": true
+          },
+          "relationship": {
+            "type": "string",
+            "nullable": true
+          },
+          "relationDuration": {
+            "type": "string",
+            "nullable": true
+          },
+          "qualification": {
+            "type": "string",
+            "nullable": true
+          },
+          "profession": {
+            "type": "string",
+            "nullable": true
+          },
+          "detailOfAttemptedAbuse": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CallerViewModel": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "time": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "designation": {
+            "type": "string",
+            "nullable": true
+          },
+          "organisation": {
+            "type": "string",
+            "nullable": true
+          },
+          "detailOfCaller": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonForCall": {
+            "type": "string",
+            "nullable": true
+          },
+          "detailOfCall": {
+            "type": "string",
+            "nullable": true
+          },
+          "outcome": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChildRequestModel": {
+        "type": "object",
+        "properties": {
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "childReferenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "childReferenceNo2": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "dischargeDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "hasBeenReferred": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "whereHasBeenReferred": {
+            "type": "string",
+            "nullable": true
+          },
+          "hygiene": {
+            "type": "string",
+            "nullable": true
+          },
+          "soughtMedicalTreatment": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "underPhysicalViolence": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "requireMedicalOrPsychologicalAssistance": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "specialChild": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "residence": {
+            "type": "string",
+            "nullable": true
+          },
+          "gradeAssigned": {
+            "type": "string",
+            "nullable": true
+          },
+          "shelterSchoolEntryDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "shelterSchoolLeavingDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "impactOnReadingAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "impactOnWritingAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "impactOnMathsAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "impactOnSocialAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "impactOnExtraCurricularAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "attendedTraining": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfTraining": {
+            "type": "string",
+            "nullable": true
+          },
+          "vaccinated": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "typeOfVaccination": {
+            "type": "string",
+            "nullable": true
+          },
+          "nextDateOfVaccination": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isChildMaleAbove10": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "whereMaleChildBeenSent": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceNoEntity": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChildViewModel": {
+        "type": "object",
+        "properties": {
+          "motherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "dischargeDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "hasBeenReferred": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "whereHasBeenReferred": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "health": {
+            "$ref": "#/components/schemas/HealthViewModel"
+          },
+          "schooling": {
+            "$ref": "#/components/schemas/SchoolingViewModel"
+          },
+          "orientation": {
+            "$ref": "#/components/schemas/OrientationViewModel"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DastakVisitModel": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "objectiveOfVisit": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "detailOfVisit": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "noOfPreviousVisits": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "noOfPlannedVisits": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DischargeViewModel": {
+        "type": "object",
+        "properties": {
+          "entity": {
+            "type": "string",
+            "nullable": true
+          },
+          "file": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameOfResident": {
+            "type": "string",
+            "nullable": true
+          },
+          "admissionDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dischargeDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "survivorInformedShelter": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hasPoliceBeenInformed": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "policeInformedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "originalPossessionsReturned": {
+            "type": "string",
+            "nullable": true
+          },
+          "familySignedRazinama": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "reasonForLeaving": {
+            "type": "string",
+            "nullable": true
+          },
+          "residenceAfterDischarge": {
+            "type": "string",
+            "nullable": true
+          },
+          "consentFollowUps": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "levelOfRiskAtDeparture": {
+            "type": "string",
+            "nullable": true
+          },
+          "forwardingAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "frequencyOfFollowUps": {
+            "type": "string",
+            "nullable": true
+          },
+          "givenResourcesList": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "overAllExperience": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityArrangements": {
+            "type": "string",
+            "nullable": true
+          },
+          "provisionOfFood": {
+            "type": "string",
+            "nullable": true
+          },
+          "provisionOfClothingAndAccessories": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicalOrPsychologicalFacilities": {
+            "type": "string",
+            "nullable": true
+          },
+          "provisionOfLegalAssistance": {
+            "type": "string",
+            "nullable": true
+          },
+          "provisionForFamilyMeetings": {
+            "type": "string",
+            "nullable": true
+          },
+          "crisisManagementAndAttitude": {
+            "type": "string",
+            "nullable": true
+          },
+          "servicesProvidedToHerChildren": {
+            "type": "string",
+            "nullable": true
+          },
+          "awarenessProgramsAndWorkshop": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasSuggestionsOrComplaints": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "suggestionsOrComplaints": {
+            "type": "string",
+            "nullable": true
+          },
+          "rightsWereRespected": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "privacyEnsuredDuringMeeting": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "practicesKeepingChildrenSafe": {
+            "type": "string",
+            "nullable": true
+          },
+          "givenOpportunitiesOfParticipating": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "active": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EconomicViewModel": {
+        "type": "object",
+        "properties": {
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameOfResident": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "education": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousOccupation": {
+            "type": "string",
+            "nullable": true
+          },
+          "sourceOfResidentIncome": {
+            "type": "string",
+            "nullable": true
+          },
+          "familyIncome": {
+            "type": "string",
+            "nullable": true
+          },
+          "occupationOfBreadwinner": {
+            "type": "string",
+            "nullable": true
+          },
+          "noOfIndividualsEarn": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "livingArrangementBeforeAdmission": {
+            "type": "string",
+            "nullable": true
+          },
+          "interestedInContinuingEducation": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "alreadyEnrolledInEducationalInstitute": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hasShelterAssistedInExternalInstituteEducation": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sourceOfEducationalArrangements": {
+            "type": "string",
+            "nullable": true
+          },
+          "enrolledToLearnNewSkills": {
+            "type": "string",
+            "nullable": true
+          },
+          "enrolledToEvent": {
+            "type": "string",
+            "nullable": true
+          },
+          "enrolledCourseDetail": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfCourse": {
+            "type": "string",
+            "nullable": true
+          },
+          "durationOfCourse": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseConductedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "attendedAnyWorkshopAtShelter": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dateOfWorkshopAtShelter": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "typeOfWorkshopAtShelter": {
+            "type": "string",
+            "nullable": true
+          },
+          "employmentOpportunityProvided": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "durationOfEmployment": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EntityEditViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceNo2": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "assessmentRisk": {
+            "type": "string",
+            "nullable": true
+          },
+          "ensurePrivacy": {
+            "type": "string",
+            "nullable": true
+          },
+          "residenceBeforeReadmission": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOfBirth": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "religion": {
+            "type": "string",
+            "nullable": true
+          },
+          "birthReligion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherLivingStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherLivingStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "guardianName": {
+            "type": "string",
+            "nullable": true
+          },
+          "guardianRelation": {
+            "type": "string",
+            "nullable": true
+          },
+          "ethinicity": {
+            "type": "string",
+            "nullable": true
+          },
+          "passportNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nationality": {
+            "type": "string",
+            "nullable": true
+          },
+          "cnic": {
+            "type": "string",
+            "nullable": true
+          },
+          "domicileCity": {
+            "type": "string",
+            "nullable": true
+          },
+          "domicileProvince": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "literacyLevel": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone2": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isConvert": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "maritalStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "separatedSince": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "maritalCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "maritalType": {
+            "type": "string",
+            "nullable": true
+          },
+          "wifeOf": {
+            "type": "string",
+            "nullable": true
+          },
+          "partnerAbusedInDrug": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "proofOfMarriage": {
+            "type": "string",
+            "nullable": true
+          },
+          "haveChildren": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "totalChildren": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "accompanyingChildren": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "accompanyingChildrenName": {
+            "type": "string",
+            "nullable": true
+          },
+          "accompanyingChildrenAge": {
+            "type": "string",
+            "nullable": true
+          },
+          "accompanyingChildrenRelation": {
+            "type": "string",
+            "nullable": true
+          },
+          "currentlyExpecting": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "expectedDeliveryDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "typeOfReference": {
+            "type": "string",
+            "nullable": true
+          },
+          "referencialName": {
+            "type": "string",
+            "nullable": true
+          },
+          "referencialCity": {
+            "type": "string",
+            "nullable": true
+          },
+          "isReferencial": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "ageOfMarriage": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EntityRequestModel": {
+        "type": "object",
+        "properties": {
+          "fileNo2": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceNo2": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "assessmentRisk": {
+            "type": "string",
+            "nullable": true
+          },
+          "residenceBeforeReadmission": {
+            "type": "string",
+            "nullable": true
+          },
+          "ensurePrivacy": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOfBirth": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "religion": {
+            "type": "string",
+            "nullable": true
+          },
+          "birthReligion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherLivingStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherLivingStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "guardianName": {
+            "type": "string",
+            "nullable": true
+          },
+          "guardianRelation": {
+            "type": "string",
+            "nullable": true
+          },
+          "ethinicity": {
+            "type": "string",
+            "nullable": true
+          },
+          "nationality": {
+            "type": "string",
+            "nullable": true
+          },
+          "passportNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "cnic": {
+            "type": "string",
+            "nullable": true
+          },
+          "domicileCity": {
+            "type": "string",
+            "nullable": true
+          },
+          "domicileProvince": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "literacyLevel": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone2": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maritalStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "separatedSince": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "maritalCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "maritalType": {
+            "type": "string",
+            "nullable": true
+          },
+          "wifeOf": {
+            "type": "string",
+            "nullable": true
+          },
+          "partnerAbusedInDrug": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "proofOfMarriage": {
+            "type": "string",
+            "nullable": true
+          },
+          "haveChildren": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "totalChildren": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "accompanyingChildren": {
+            "type": "string",
+            "nullable": true
+          },
+          "accompanyingChildrenName": {
+            "type": "string",
+            "nullable": true
+          },
+          "accompanyingChildrenAge": {
+            "type": "string",
+            "nullable": true
+          },
+          "accompanyingChildrenRelation": {
+            "type": "string",
+            "nullable": true
+          },
+          "currentlyExpecting": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "expectedDeliveryDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "typeOfReference": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameOfReference": {
+            "type": "string",
+            "nullable": true
+          },
+          "cityOfReference": {
+            "type": "string",
+            "nullable": true
+          },
+          "isReferential": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ageOfMarriage": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EntityViewModel": {
+        "type": "object",
+        "properties": {
+          "fileNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "childData": {
+            "$ref": "#/components/schemas/ChildViewModel"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FileViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fileNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileNo2": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "active": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "parentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "discharged": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "assessmentRisk": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAdmitted": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "parentActive": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FilterRequest": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "province": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "reason": {
+            "type": "string",
+            "nullable": true
+          },
+          "nature": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FollowupFormModel": {
+        "type": "object",
+        "properties": {
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameOfResident": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "followupDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dischargeDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "currentResidence": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusOfOriginalConcern": {
+            "type": "string",
+            "nullable": true
+          },
+          "behaviourOfFamilyTowardsHer": {
+            "type": "string",
+            "nullable": true
+          },
+          "currentlyEmployed": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "recommendedSomeoneElseToShelter": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "consentToFurtherFollowup": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "frequency": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HealthViewModel": {
+        "type": "object",
+        "properties": {
+          "hygiene": {
+            "type": "string",
+            "nullable": true
+          },
+          "soughtMedicalTreatment": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "underPhysicalViolence": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "requireMedicalOrPsychologicalAssistance": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "specialChild": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "residence": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InterventionDetailModel": {
+        "type": "object",
+        "properties": {
+          "natureOfIntervention": {
+            "type": "string",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "additionalDetails": {
+            "type": "string",
+            "nullable": true
+          },
+          "complications": {
+            "type": "string",
+            "nullable": true
+          },
+          "additionalComplications": {
+            "type": "string",
+            "nullable": true
+          },
+          "outcome": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InterventionFormModel": {
+        "type": "object",
+        "properties": {
+          "fileNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "interventionDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "detailsOfIntervention": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InterventionDetailModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LegalNoticeViewModel": {
+        "type": "object",
+        "properties": {
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "legalAdviceSought": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "legalAssistanceSought": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "legalNoticeSent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dateWhenLegalNoticeSent": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "legalNoticeSentTo": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeOfAssistance": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonForWithdrawal": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfLegalConcern": {
+            "type": "string",
+            "nullable": true
+          },
+          "firNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "caseNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "caseFiledBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "caseFiledAgainst": {
+            "type": "string",
+            "nullable": true
+          },
+          "isLawyerShelterAssigned": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nameOfLawyer": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactOfLawyer": {
+            "type": "string",
+            "nullable": true
+          },
+          "court": {
+            "type": "string",
+            "nullable": true
+          },
+          "provinceOfCourt": {
+            "type": "string",
+            "nullable": true
+          },
+          "cityOfCourt": {
+            "type": "string",
+            "nullable": true
+          },
+          "nextDateOfHearing": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusOfCase": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MedicalViewModell": {
+        "type": "object",
+        "properties": {
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameOfResident": {
+            "type": "string",
+            "nullable": true
+          },
+          "briefOfHistory": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfChronicIllness": {
+            "type": "string",
+            "nullable": true
+          },
+          "substancesInDrugAbused": {
+            "type": "string",
+            "nullable": true
+          },
+          "intensityOfAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "isCurrentlySubstanceAbuser": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intensityOfCurrentAbuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "currentMedicalPrescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "expectedDeliveryDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dateWhenSought": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "nameOfDoctorAssisting": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameOfClinicAssisting": {
+            "type": "string",
+            "nullable": true
+          },
+          "complaint": {
+            "type": "string",
+            "nullable": true
+          },
+          "diagnosis": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNo2": {
+            "type": "string",
+            "nullable": true
+          },
+          "treatmentSuggested": {
+            "type": "string",
+            "nullable": true
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "shelterAgreedToConductTests": {
+            "type": "string",
+            "nullable": true
+          },
+          "detailOfTest": {
+            "type": "string",
+            "nullable": true
+          },
+          "caseId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MeetingsViewModel": {
+        "type": "object",
+        "properties": {
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameOfResident": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOfMeeting": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "atShelter": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "startTime": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "endTime": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "guestNames": {
+            "type": "string",
+            "nullable": true
+          },
+          "guestCnics": {
+            "type": "string",
+            "nullable": true
+          },
+          "guestRelations": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrientationViewModel": {
+        "type": "object",
+        "properties": {
+          "attendedTraining": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfTraining": {
+            "type": "string",
+            "nullable": true
+          },
+          "vaccinated": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "typeOfVaccination": {
+            "type": "string",
+            "nullable": true
+          },
+          "nextDateOfVaccination": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isChildMaleAbove10": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "whereMaleChildBeenSent": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProceedAdmissionViewModel": {
+        "type": "object",
+        "properties": {
+          "fileNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "isReadmission": {
+            "type": "boolean"
+          },
+          "isAdmitted": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "admissionDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonForAdmission": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfAssistance": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAbused": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "interviewDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "expectedDeliveryDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonOfRefuse": {
+            "type": "string",
+            "nullable": true
+          },
+          "isReferredToOtherShelter": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "whereHasSheReferred": {
+            "type": "string",
+            "nullable": true
+          },
+          "familyPhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "familyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "familyRelation": {
+            "type": "string",
+            "nullable": true
+          },
+          "emergencyRelation": {
+            "type": "string",
+            "nullable": true
+          },
+          "emergencyPhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "emergencyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "listOfDocuments": {
+            "type": "string",
+            "nullable": true
+          },
+          "photocopied": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hasScreened": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "diseases": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasBeenOriented": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "givenCopyOfRules": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "givenCopyOfRights": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "ensuredConfidentialityOfData": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "items": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantities": {
+            "type": "string",
+            "nullable": true
+          },
+          "inPossessionOf": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasSignedAuthorizationLetter": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "details": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PsychologicalAssistanceViewModel": {
+        "type": "object",
+        "properties": {
+          "referenceNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameOfResident": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "psychologicalAssessment": {
+            "type": "string",
+            "nullable": true
+          },
+          "whatArrangementsMadeForImmediateAssistance": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureOfAssistance": {
+            "type": "string",
+            "nullable": true
+          },
+          "soughtAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "providedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "nameOfConsultant": {
+            "type": "string",
+            "nullable": true
+          },
+          "locationOfConsultant": {
+            "type": "string",
+            "nullable": true
+          },
+          "contact": {
+            "type": "string",
+            "nullable": true
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "conductedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "startedAt": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "endedAt": {
+            "$ref": "#/components/schemas/TimeSpan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SchoolingViewModel": {
+        "type": "object",
+        "properties": {
+          "gradeAssigned": {
+            "type": "string",
+            "nullable": true
+          },
+          "shelterSchoolEntryDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "shelterSchoolLeavingDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "impactOnReadingAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "impactOnWritingAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "impactOnMathsAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "impactOnSocialAbility": {
+            "type": "string",
+            "nullable": true
+          },
+          "impactOnExtraCuricularAbility": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TimeSpan": {
+        "type": "object",
+        "properties": {
+          "ticks": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "days": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "hours": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "milliseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "microseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "nanoseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "minutes": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "seconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "totalDays": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalHours": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMilliseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMicroseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalNanoseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMinutes": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalSeconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "userCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "deactivatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VisitorViewModel": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "toDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "time": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "designation": {
+            "type": "string",
+            "nullable": true
+          },
+          "organisation": {
+            "type": "string",
+            "nullable": true
+          },
+          "detailOfVisitor": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonForVisit": {
+            "type": "string",
+            "nullable": true
+          },
+          "detailOfVisit": {
+            "type": "string",
+            "nullable": true
+          },
+          "noOfPreviousVisits": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "noOfPlannedVisits": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

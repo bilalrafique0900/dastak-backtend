@@ -1,0 +1,1698 @@
+[
+  {
+    "ContainingType": "DastakWebApi.Controllers.AbuserController",
+    "Method": "Getabuse",
+    "RelativePath": "Abuser/getabuse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AbuserController",
+    "Method": "getabuseradd",
+    "RelativePath": "Abuser/getabuseradd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AbuserController",
+    "Method": "Getabuserview",
+    "RelativePath": "Abuser/getabuserview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AbuserController",
+    "Method": "getdeleteabuser",
+    "RelativePath": "Abuser/gettdeleteabuser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AbuserController",
+    "Method": "postabuseradd",
+    "RelativePath": "Abuser/postabuseradd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "viewModel",
+        "Type": "DastakWebApi.ViewModel.AllegedAbuserViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AllCallersController",
+    "Method": "DeleteCaller",
+    "RelativePath": "AllCallers/delete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AllCallersController",
+    "Method": "GetCallers",
+    "RelativePath": "AllCallers/getcallers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AllCallersController",
+    "Method": "GetById",
+    "RelativePath": "AllCallers/getcallersbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "Auth/postauth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AuthController",
+    "Method": "SendVerification",
+    "RelativePath": "Auth/SendVerification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ToEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.AuthController",
+    "Method": "Verify",
+    "RelativePath": "Auth/verify",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Passcode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.CallerController",
+    "Method": "Add",
+    "RelativePath": "Caller/postcall",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.CallerViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.ChildrenController",
+    "Method": "Add",
+    "RelativePath": "Children/getaddchild",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.ChildrenController",
+    "Method": "Index",
+    "RelativePath": "Children/getchild",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.ChildrenController",
+    "Method": "View",
+    "RelativePath": "Children/getchildview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "childentity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.ChildrenController",
+    "Method": "Edit",
+    "RelativePath": "Children/geteditchild",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "childentity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.ChildrenController",
+    "Method": "Disable",
+    "RelativePath": "Children/gettdeletechild",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "childReferenceNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.ChildrenController",
+    "Method": "Add",
+    "RelativePath": "Children/postaddchild",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.ChildRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.ChildrenController",
+    "Method": "Edit",
+    "RelativePath": "Children/posteditchild",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "childentity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.EntityViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DashboardController",
+    "Method": "Home",
+    "RelativePath": "Dashboard/home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DastakVisitController",
+    "Method": "DeleteDastakVisit",
+    "RelativePath": "DastakVisit/deletedastakvisit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DastakVisitController",
+    "Method": "GetDastakVisit",
+    "RelativePath": "DastakVisit/getdastak",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DastakVisitController",
+    "Method": "getdastakbyid",
+    "RelativePath": "DastakVisit/getdastakbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DastakVisitController",
+    "Method": "postdastakvisit",
+    "RelativePath": "DastakVisit/postdastakvisit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.DastakVisitModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DocumentController",
+    "Method": "Delete",
+    "RelativePath": "Document/deletedocument",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DocumentController",
+    "Method": "detadddocument",
+    "RelativePath": "Document/getadddocument",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DocumentController",
+    "Method": "getdocument",
+    "RelativePath": "Document/getdocument",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DocumentController",
+    "Method": "getdocumentview",
+    "RelativePath": "Document/getdocumentview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.DocumentController",
+    "Method": "Add",
+    "RelativePath": "Document/postadddocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReferenceNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Detail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.EconomicController",
+    "Method": "deleteeconomic",
+    "RelativePath": "Economic/deleteeconomic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.EconomicController",
+    "Method": "geteconomic",
+    "RelativePath": "Economic/geteconomic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.EconomicController",
+    "Method": "geteconomicadd",
+    "RelativePath": "Economic/geteconomicadd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.EconomicController",
+    "Method": "View",
+    "RelativePath": "Economic/geteconomicbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.EconomicController",
+    "Method": "posteconomicadd",
+    "RelativePath": "Economic/posteconomicadd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.EconomicViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.FilterController",
+    "Method": "Filter",
+    "RelativePath": "Filter/postfilter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "DastakWebApi.Models.FilterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.FollowUpController",
+    "Method": "deletefollow",
+    "RelativePath": "FollowUp/deletefollow",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.FollowUpController",
+    "Method": "Add",
+    "RelativePath": "FollowUp/getfollowdetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.FollowUpController",
+    "Method": "Index",
+    "RelativePath": "FollowUp/getfollowrecord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.FollowUpController",
+    "Method": "Add",
+    "RelativePath": "FollowUp/postfollowdata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.FollowupFormModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.InterventionsController",
+    "Method": "Add",
+    "RelativePath": "Interventions/addintervention",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.InterventionFormModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.InterventionsController",
+    "Method": "deleteinterventions",
+    "RelativePath": "Interventions/deleteinterventions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.InterventionsController",
+    "Method": "Index",
+    "RelativePath": "Interventions/getintervention",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.InterventionsController",
+    "Method": "GetInterventionl",
+    "RelativePath": "Interventions/getinterventionadd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.InterventionsController",
+    "Method": "View",
+    "RelativePath": "Interventions/getviewintervention",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "Add",
+    "RelativePath": "LegalDetail/addlegal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.LegalNoticeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "Edit",
+    "RelativePath": "LegalDetail/editlegal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.LegalNoticeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "Deactivated",
+    "RelativePath": "LegalDetail/get-deactivated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "Index",
+    "RelativePath": "LegalDetail/getfeedback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReferenceNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "GetLegal",
+    "RelativePath": "LegalDetail/getlegal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "GetLegalAssistance",
+    "RelativePath": "LegalDetail/getlegalassistance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "GetById",
+    "RelativePath": "LegalDetail/getlegalassistancebyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "View",
+    "RelativePath": "LegalDetail/getviewbasic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.LegalDetailController",
+    "Method": "Update",
+    "RelativePath": "LegalDetail/updatelegal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.LegalNoticeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MedicalController",
+    "Method": "deletemedical",
+    "RelativePath": "Medical/deletemedical",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MedicalController",
+    "Method": "getmedical",
+    "RelativePath": "Medical/getmedical",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MedicalController",
+    "Method": "getmedicaladd",
+    "RelativePath": "Medical/getmedicaladd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MedicalController",
+    "Method": "getmedicalview",
+    "RelativePath": "Medical/getmedicalview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "caseId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MedicalController",
+    "Method": "postmedicaladd",
+    "RelativePath": "Medical/postmedicaladd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.MedicalViewModell",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MedicalController",
+    "Method": "postphysicaladd",
+    "RelativePath": "Medical/postphysicaladd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.PsychologicalAssistanceViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MeetingsController",
+    "Method": "deletemeeting",
+    "RelativePath": "Meetings/deletemeeting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MeetingsController",
+    "Method": "getmeeting",
+    "RelativePath": "Meetings/getmeeting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MeetingsController",
+    "Method": "getmeetingadd",
+    "RelativePath": "Meetings/getmeetingadd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MeetingsController",
+    "Method": "postaddmeeting",
+    "RelativePath": "Meetings/postaddmeeting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.MeetingsViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MeetingsController",
+    "Method": "postviewmeeting",
+    "RelativePath": "Meetings/postviewmeeting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MenuController",
+    "Method": "AllFiles",
+    "RelativePath": "Menu/all-files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchQuery",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "data",
+        "Type": "System.Collections.Generic.List\u00601[[DastakWebApi.ViewModel.FileViewModel, DastakWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MenuController",
+    "Method": "Index",
+    "RelativePath": "Menu/files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchQuery",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "data",
+        "Type": "System.Collections.Generic.List\u00601[[DastakWebApi.ViewModel.FileViewModel, DastakWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MenuController",
+    "Method": "geteditbasicinfo",
+    "RelativePath": "Menu/geteditbasicinfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MenuController",
+    "Method": "Add",
+    "RelativePath": "Menu/getfeedbackdeparture",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MenuController",
+    "Method": "getlegalreadmission",
+    "RelativePath": "Menu/getlegalreadmission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.MenuController",
+    "Method": "Add",
+    "RelativePath": "Menu/postfeedbackdeparture",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.DischargeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.NewAdmissionController",
+    "Method": "GetInfo",
+    "RelativePath": "NewAdmission/getinfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.NewAdmissionController",
+    "Method": "Add",
+    "RelativePath": "NewAdmission/newaddmission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "DastakWebApi.ViewModel.EntityRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.NewAdmissionController",
+    "Method": "PostInfo",
+    "RelativePath": "NewAdmission/postinfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.EntityEditViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.NewAdmissionController",
+    "Method": "ReAddmission",
+    "RelativePath": "NewAdmission/readmission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "DastakWebApi.ViewModel.EntityRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.NotificationController",
+    "Method": "Index",
+    "RelativePath": "Notification/getnotification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PendingController",
+    "Method": "deletepending",
+    "RelativePath": "Pending/deletepending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PendingController",
+    "Method": "Add",
+    "RelativePath": "Pending/getpendingdata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PendingController",
+    "Method": "getpendingname",
+    "RelativePath": "Pending/getpendingname",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PendingController",
+    "Method": "Pending",
+    "RelativePath": "Pending/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PendingController",
+    "Method": "ProceedAdmission",
+    "RelativePath": "Pending/postproceeddata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.ProceedAdmissionViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PsychologicalController",
+    "Method": "DeletePsychologicalAssisstance",
+    "RelativePath": "Psychological/delete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PsychologicalController",
+    "Method": "Index",
+    "RelativePath": "Psychological/getphysical",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PsychologicalController",
+    "Method": "Add",
+    "RelativePath": "Psychological/getphysicaladd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PsychologicalController",
+    "Method": "getphysicalbyid",
+    "RelativePath": "Psychological/getphysicalbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.PsychologicalController",
+    "Method": "postphysicaladd",
+    "RelativePath": "Psychological/postphysicaladd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.PsychologicalAssistanceViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.UserController",
+    "Method": "Add",
+    "RelativePath": "User/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "DastakWebApi.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "User/delete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.UserController",
+    "Method": "Edit",
+    "RelativePath": "User/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "data",
+        "Type": "DastakWebApi.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.UserController",
+    "Method": "Edit",
+    "RelativePath": "User/getuserbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "User/getusers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.VisitorController",
+    "Method": "DeleteVisitor",
+    "RelativePath": "Visitor/delete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.VisitorController",
+    "Method": "GetVisitor",
+    "RelativePath": "Visitor/getexternalvisitor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.VisitorController",
+    "Method": "Edit",
+    "RelativePath": "Visitor/getvisitorbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DastakWebApi.Controllers.VisitorController",
+    "Method": "postvisit",
+    "RelativePath": "Visitor/postvisit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DastakWebApi.ViewModel.VisitorViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

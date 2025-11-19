@@ -1,0 +1,241 @@
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\appsettings.json
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.exe
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.deps.json
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.runtimeconfig.json
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.pdb
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Humanizer.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.csproj.AssemblyReference.cache
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.AssemblyInfoInputs.cache
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.AssemblyInfo.cs
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.csproj.CoreCompileInputs.cache
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.DastakWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.DastakWebApi.props
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DastakWebApi.props
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DastakWebApi.props
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\scopedcss\bundle\DastakWebApi.styles.css
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.csproj.CopyComplete
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\refint\DastakWebApi.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.pdb
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.genruntimeconfig.cache
+D:\Digital Omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\ref\DastakWebApi.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Digital Omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.staticwebassets.runtime.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.csproj.AssemblyReference.cache
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.AssemblyInfoInputs.cache
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.AssemblyInfo.cs
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.csproj.CoreCompileInputs.cache
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.staticwebassets.runtime.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.staticwebassets.endpoints.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.exe
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.deps.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.runtimeconfig.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.pdb
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\scopedcss\bundle\DastakWebApi.styles.css
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.DastakWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.DastakWebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.DastakWebApi.props
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DastakWebApi.props
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DastakWebApi.props
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWe.9755EED7.Up2Date
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\refint\DastakWebApi.dll
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.pdb
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.genruntimeconfig.cache
+C:\Users\DO-User\Desktop\dastak\DastakWebApi\DastakWebApi\obj\Debug\net7.0\ref\DastakWebApi.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\appsettings.json
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.staticwebassets.runtime.json
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.exe
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.deps.json
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.runtimeconfig.json
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\DastakWebApi.pdb
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Humanizer.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.csproj.AssemblyReference.cache
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.AssemblyInfoInputs.cache
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.AssemblyInfo.cs
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.csproj.CoreCompileInputs.cache
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.DastakWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.DastakWebApi.props
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DastakWebApi.props
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DastakWebApi.props
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\scopedcss\bundle\DastakWebApi.styles.css
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.csproj.CopyComplete
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\refint\DastakWebApi.dll
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.pdb
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\DastakWebApi.genruntimeconfig.cache
+D:\new digital omega\DastakWebApi\DastakWebApi\obj\Debug\net7.0\ref\DastakWebApi.dll
